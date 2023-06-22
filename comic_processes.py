@@ -9,12 +9,12 @@ from contextlib import closing
 from pathlib import Path
 from zipfile import ZipFile
 
-import exifread
+import exifread 
 
-#pip install PyMuPDF Pillow
+#pip install PyMuPDF Pillow exifread patool rarfile python-dateutil Send2Trash numpy filetype
 import fitz
 import numpy as np
-#pip install patool
+
 import patoolib
 import rarfile
 from dateutil.relativedelta import relativedelta
@@ -24,7 +24,7 @@ from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 import filetype
-# pip install Send2Trash
+
 from send2trash import send2trash
 
 import Vars
